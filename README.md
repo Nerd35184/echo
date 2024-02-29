@@ -1,10 +1,7 @@
 # echo
 
 ## 总体介绍
-一个简单的 echo server 以及 client。采用经典的 `one loop per thread + thread pool` 模式。
-
-整个服务器还有很多改善的空间。比如 server 的 worker 可以动态伸缩，比如需要一个 buffer 类，比如需要优雅关闭等，比如需要一个 hashmap ，不胜枚举，概因时间和精力的缘故，暂时完成到这个程度。
-
+学习网络编程相关过程中，采用纯c语言实现的echo服务器，包好一个简单的 echo server 以及 client。采用经典的 `one loop per thread + thread pool` 模式。
 
 ## 文件介绍
 
